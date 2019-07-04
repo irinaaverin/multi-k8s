@@ -5,7 +5,7 @@ metadata:
 spec:
   secretName: irinaplay-pw
   issuerRef:
-    name: letsencrypt-prod
+    name: letsencrypt-prod        
     kind: ClusterIssuer
   commonName: irinaplay.pw
   dnsNames:
